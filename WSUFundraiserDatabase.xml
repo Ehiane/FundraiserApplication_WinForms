@@ -1,0 +1,36 @@
+<WSUFundraiser>
+  <Users>
+    <User Type="Student">
+      <Name>Ehiane Oigiagbe</Name>
+      <Email>e.oigiagbe@wsu.edu</Email>
+      <Username>e.oigiagbe</Username>
+      <Password>1234</Password>
+      <WsuId>11732262</WsuId>
+      <Major>Computer Science</Major>
+      <GraduationYear>2025</GraduationYear>
+      <Clubs>
+        <Club>
+          <Name>Soccer Club</Name>
+          <Description>This is the WSU Soccer Club. Open to all!</Description>
+          <Members>
+            <Member>e.oigiagbe</Member>
+          </Members>
+          <Projects>
+            <Project>
+              <Name>The Grand Soccer Fund</Name>
+              <Description>To bolster the Soccer community on campus </Description>
+              <TargetAmount>20000</TargetAmount>
+              <RaisedAmount>0</RaisedAmount>
+            </Project>
+          </Projects>
+        </Club>
+        <Club>
+          <Name>Yoga Club</Name>
+          <Description>Join the Yoga club where you can unwind and relax after class</Description>
+          <Members />
+          <Projects />
+        </Club>
+      </Clubs>
+    </User>
+  </Users>
+</WSUFundraiser>
