@@ -1,36 +1,67 @@
 <WSUFundraiser>
   <Users>
     <User Type="Student">
-      <Name>Ehiane Oigiagbe</Name>
-      <Email>e.oigiagbe@wsu.edu</Email>
-      <Username>e.oigiagbe</Username>
+      <Name>john doe</Name>
+      <Email>jd@email.com</Email>
+      <Username>jd</Username>
       <Password>1234</Password>
-      <WsuId>11732262</WsuId>
-      <Major>Computer Science</Major>
+      <WsuId>12345678</WsuId>
+      <Major>cs</Major>
       <GraduationYear>2025</GraduationYear>
       <Clubs>
         <Club>
-          <Name>Soccer Club</Name>
-          <Description>This is the WSU Soccer Club. Open to all!</Description>
-          <Members>
-            <Member>e.oigiagbe</Member>
-          </Members>
+          <Name>test</Name>
+          <Description>test</Description>
+          <StartDate>2024-12-14</StartDate>
+          <EndDate>2024-12-18</EndDate>
+          <Members />
           <Projects>
             <Project>
-              <Name>The Grand Soccer Fund</Name>
-              <Description>To bolster the Soccer community on campus </Description>
-              <TargetAmount>20000</TargetAmount>
+              <Name>testProject</Name>
+              <Description>test</Description>
+              <TargetAmount>1000</TargetAmount>
               <RaisedAmount>0</RaisedAmount>
+              <StartDate>2024-12-14</StartDate>
+              <EndDate>2024-12-18</EndDate>
+              <Members>
+                <Member>jd</Member>
+              </Members>
             </Project>
           </Projects>
         </Club>
         <Club>
-          <Name>Yoga Club</Name>
-          <Description>Join the Yoga club where you can unwind and relax after class</Description>
-          <Members />
-          <Projects />
+          <Name>test</Name>
+          <Description>test</Description>
+          <StartDate>2024-12-14</StartDate>
+          <EndDate>2024-12-18</EndDate>
+          <Members>
+            <Member>jd</Member>
+          </Members>
+          <Projects>
+            <Project Name="testProject" Description="test" TargetAmount="0" RaisedAmount="0">
+              <StartDate>2024-12-14</StartDate>
+              <EndDate>2024-12-18</EndDate>
+            </Project>
+          </Projects>
         </Club>
       </Clubs>
     </User>
   </Users>
+  <Scholarships>
+    <Scholarship>
+      <Name>testScholarship</Name>
+      <Description>test</Description>
+      <Status>Open</Status>
+      <Criteria>
+        <Criterion>smart</Criterion>
+        <Criterion> 5.0</Criterion>
+      </Criteria>
+      <Applicants>
+        <Applicant>jd</Applicant>
+      </Applicants>
+      <AwardedStudents>
+        <Student>jd</Student>
+      </AwardedStudents>
+    </Scholarship>
+  </Scholarships>
 </WSUFundraiser>
